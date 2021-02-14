@@ -35,5 +35,19 @@ namespace PhoneBook
             r1.DataSource = dt;
             r1.DataBind();
         }
+
+        protected void b1_Click(object sender, EventArgs e)
+        {
+            SqlCommand cmd = con.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "select * from add_contact where username='" + Session["username"].ToString() + "' and firstname like('"+ firstname.Text +"%')";
+            cmd.ExecuteNonQuery();
+            DataTable dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            r1.DataSource = dt;
+            r1.DataBind();
+
+        }
     }
 }
