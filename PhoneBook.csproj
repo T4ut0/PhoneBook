@@ -334,6 +334,7 @@
     <Content Include="assets\scripts\x-editable.demo.min.js" />
     <Content Include="assets\styles\style.min.css" />
     <Content Include="Login.aspx" />
+    <Content Include="mycontact.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -351,6 +352,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mycontact.aspx.cs">
+      <DependentUpon>mycontact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mycontact.aspx.designer.cs">
+      <DependentUpon>mycontact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registration.aspx.cs">

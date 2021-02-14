@@ -27,8 +27,12 @@
             <h5 class="title">Navigation</h5>
             <ul class="menu js__accordion">
                 <li>
-                    <a class="waves-effect" href="index-2.html"><i
-                            class="menu-icon fa fa-home"></i><span>Dashboard</span></a>
+                    <a class="waves-effect" href="add_contact.aspx"><i
+                            class="menu-icon fa fa-home"></i><span>Add Contact</span></a>
+                </li>
+                <li>
+                    <a class="waves-effect" href="mycontact.aspx"><i
+                            class="menu-icon fa fa-home"></i><span>My Contacts</span></a>
                 </li>
             </ul>
 
