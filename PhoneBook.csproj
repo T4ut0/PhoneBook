@@ -83,45 +83,8 @@
     <Content Include="assets\fonts\material-design\fonts\materialdesignicons-webfont8d40.svg" />
     <Content Include="assets\fonts\themify-icons\fonts\themify9f24.svg" />
     <Content Include="assets\fonts\themify-icons\themify-icons.css" />
-    <Content Include="assets\images\404.jpg" />
-    <Content Include="assets\images\avatar-1.jpg" />
-    <Content Include="assets\images\avatar-2.jpg" />
-    <Content Include="assets\images\avatar-3.jpg" />
-    <Content Include="assets\images\avatar-4.jpg" />
-    <Content Include="assets\images\avatar-5.jpg" />
-    <Content Include="assets\images\avatar-sm-1.jpg" />
-    <Content Include="assets\images\avatar-sm-2.jpg" />
-    <Content Include="assets\images\avatar-sm-3.jpg" />
-    <Content Include="assets\images\avatar-sm-4.jpg" />
-    <Content Include="assets\images\avatar-sm-5.jpg" />
-    <Content Include="assets\images\avatar-sm-6.jpg" />
-    <Content Include="assets\images\avatar-sm-7.jpg" />
-    <Content Include="assets\images\avatar-sm-8.jpg" />
-    <Content Include="assets\images\avatar.png" />
-    <Content Include="assets\images\gallery\our-gallery-1.jpg" />
-    <Content Include="assets\images\gallery\our-gallery-10.jpg" />
-    <Content Include="assets\images\gallery\our-gallery-11.jpg" />
-    <Content Include="assets\images\gallery\our-gallery-12.jpg" />
-    <Content Include="assets\images\gallery\our-gallery-13.jpg" />
-    <Content Include="assets\images\gallery\our-gallery-14.jpg" />
-    <Content Include="assets\images\gallery\our-gallery-15.jpg" />
-    <Content Include="assets\images\gallery\our-gallery-2.jpg" />
-    <Content Include="assets\images\gallery\our-gallery-3.jpg" />
-    <Content Include="assets\images\gallery\our-gallery-4.jpg" />
-    <Content Include="assets\images\gallery\our-gallery-5.jpg" />
-    <Content Include="assets\images\gallery\our-gallery-6.jpg" />
-    <Content Include="assets\images\gallery\our-gallery-7.jpg" />
-    <Content Include="assets\images\gallery\our-gallery-8.jpg" />
-    <Content Include="assets\images\gallery\our-gallery-9.jpg" />
-    <Content Include="assets\images\icon-email.png" />
-    <Content Include="assets\images\logo\logo-1.png" />
-    <Content Include="assets\images\logo\logo-2.png" />
-    <Content Include="assets\images\logo\logo-3.png" />
-    <Content Include="assets\images\photo1.png" />
-    <Content Include="assets\images\photo2.png" />
-    <Content Include="assets\images\profile.jpg" />
+    <Content Include="assets\images\delete.png" />
     <Content Include="assets\images\sativa.png" />
-    <Content Include="assets\images\test-image-1.jpg" />
     <Content Include="assets\plugin\bootstrap\css\bootstrap.min.css" />
     <Content Include="assets\plugin\bootstrap\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="assets\plugin\bootstrap\js\bootstrap.min.js" />
@@ -333,6 +296,9 @@
     <Content Include="assets\scripts\treeview.init.min.js" />
     <Content Include="assets\scripts\x-editable.demo.min.js" />
     <Content Include="assets\styles\style.min.css" />
+    <Content Include="assets\images\edit.png" />
+    <Content Include="delete.aspx" />
+    <Content Include="edit.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="mycontact.aspx" />
     <Content Include="Registration.aspx" />
@@ -345,6 +311,20 @@
     </Compile>
     <Compile Include="add_contact.aspx.designer.cs">
       <DependentUpon>add_contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="delete.aspx.cs">
+      <DependentUpon>delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="delete.aspx.designer.cs">
+      <DependentUpon>delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="edit.aspx.cs">
+      <DependentUpon>edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="edit.aspx.designer.cs">
+      <DependentUpon>edit.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

@@ -40,6 +40,12 @@
                                 <td><%#Eval("email") %></td>
                                 <td><%#Eval("resident_address") %></td>
                                 <td><%#Eval("city") %></td>
+                                <td>
+                                    <a href="edit.aspx?id=<%#Eval("id") %>"><img src="assets/images/edit.png" height="30" width="30" /></a>
+                                    <a href="delete.aspx?id=<%#Eval("id") %>"><img src="assets/images/delete.png" height="30" width="30" /></a>
+
+                                </td>
+                                
                             </tr>
 
                         </ItemTemplate>
