@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="add_contact.aspx" />
     <Content Include="App_Data\PhoneBook.mdf" />
     <Content Include="App_Data\PhoneBook_log.ldf">
       <DependentUpon>PhoneBook.mdf</DependentUpon>
@@ -337,6 +338,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="add_contact.aspx.cs">
+      <DependentUpon>add_contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_contact.aspx.designer.cs">
+      <DependentUpon>add_contact.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -351,6 +359,13 @@
     </Compile>
     <Compile Include="Registration.aspx.designer.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user.Master.cs">
+      <DependentUpon>user.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user.Master.designer.cs">
+      <DependentUpon>user.Master</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -392,6 +407,7 @@
     <Content Include="assets\plugin\tinymce\skins\lightgray\fonts\tinymce.woff" />
     <Content Include="assets\plugin\tinymce\skins\lightgray\fonts\tinymced41d.eot" />
     <None Include="packages.config" />
+    <Content Include="user.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

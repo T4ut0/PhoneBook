@@ -41,7 +41,7 @@ namespace PhoneBook
             else
             {
                 Session["username"] = username.Text;
-                Response.Redirect("mycontact.aspx");
+                Response.Redirect("add_contact.aspx");
             }
         }
     }
